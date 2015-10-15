@@ -54,7 +54,7 @@ with(dailytotalsteps,
            ylab="Frequency", 
            geom="histogram", 
            binwidth = 500))
-```
+```  
 Finally, we calculate the mean and median total number of steps taken per day.
 Mean steps
 ```{r, meantotalsteps}
@@ -92,7 +92,7 @@ with(dailypattern,
           xlab="5min. Interval", 
           ylab="Number of Steps in Interval", 
           main="Average Daily Activity Pattern"))
-```
+```  
 Next, we determine which 5 minute interval has the maximum number of steps, again 
 averaged across all the days in the dataset.
 ```{r, maxstepinterval}

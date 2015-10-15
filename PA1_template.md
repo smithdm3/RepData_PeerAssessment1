@@ -1,3 +1,8 @@
+---
+output: 
+  html_document: 
+    keep_md: yes
+---
 Reproducible Research Peer Assessment #1
 ========================================
 
@@ -8,22 +13,6 @@ Research course Peer Assessment #1.
 ```r
 ## load modules we will use: dplyr, ggplot2
 library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-## 
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(ggplot2)
 ```
 
@@ -156,7 +145,7 @@ with(dailytotalsteps,
            binwidth = 500))
 ```
 
-![](PA1_template_files/figure-html/dailystepshistogram-1.png) 
+![plot of chunk dailystepshistogram](figure/dailystepshistogram-1.png) 
 Finally, we calculate the mean and median total number of steps taken per day.
 Mean steps
 
@@ -199,7 +188,7 @@ with(dailypattern,
           main="Average Daily Activity Pattern"))
 ```
 
-![](PA1_template_files/figure-html/timeseriesplot-1.png) 
+![plot of chunk timeseriesplot](figure/timeseriesplot-1.png) 
 Next, we determine which 5 minute interval has the maximum number of steps, again 
 averaged across all the days in the dataset.
 
@@ -428,7 +417,7 @@ with(dailytotalimputed,
            binwidth = 500))
 ```
 
-![](PA1_template_files/figure-html/dailystepshistogramimputed-1.png) 
+![plot of chunk dailystepshistogramimputed](figure/dailystepshistogramimputed-1.png) 
 
 Mean steps with imputed values
 
@@ -515,7 +504,7 @@ ggplot(newdailypattern) +
           title="Average Daily Activity Pattern by Type of Day"))
 ```
 
-![](PA1_template_files/figure-html/newtimeseriesplot-1.png) 
+![plot of chunk newtimeseriesplot](figure/newtimeseriesplot-1.png) 
 
 ### Answering the question: 
 > By looking at the graphs above, we are able to see there is certainly a 
