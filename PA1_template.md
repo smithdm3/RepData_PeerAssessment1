@@ -205,7 +205,7 @@ tail(maxstepint,1)
 ## 1      835 206.1698
 ```
 ### Answering the question: 
-> The activity pattern shows what is likely sleep from midnight until after 5am, a fair amount of activity between roughly 5am until say 7pm with a peak around 8am. The average activity ramps down significantly from roughly the 7pm time until midnight.
+> The activity pattern shows what is likely sleep from midnight until after 5am, a fair amount of activity between roughly 5am until say 7pm with a peak around 8am (interval 835 corresponding to 8:35am to be more precise). The average activity ramps down significantly from roughly the 7pm time until midnight.
 
 The average daily activity pattern shows a very low number of steps (nearly 0) 
 for the intervals numbered from 0 thru to 500 (equates to 00:00 until a little 
